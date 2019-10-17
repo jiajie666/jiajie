@@ -1,0 +1,26 @@
+workflow
+
+
+aspx/workflow/ui_workflow.aspx
+
+
+
+
+select * from SendedOutBox order by ID desc
+select * from InBox order by ID desc
+select * from OutBox order by ID desc
+
+insert into OutBox(username,Mbno,Msg,ComPort,Report,IsDel) values('111','17669131361','111','5','0','0')
+
+
+
+D:\工作\XXX管理系统\北安管理系统\WebSite\V.Frame.SqlServerDAL\Mobile\MobileVote\MobileVote.cs
+ //公章使用
+                                    else if (WF_ID == 7043)
+                                    {
+                                        _Projects.Add(new Project()
+                                        {
+                                            Title = drMnay["Collective_Content"].ToString(),//标题
+                                            Money = -1 //drMnay["Descri.be_Share"].ToDouble()//份数
+                                        });
+                                    }
